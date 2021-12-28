@@ -7,9 +7,6 @@
 *
 {
     font-family: 'Roboto', sans-serif;;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 html
@@ -21,4 +18,56 @@ body
 {
     font-size: var(--font);
     background-color: var(--dark-color);
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header
+{
+    width: 100%;
+    height: 60px;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section
+{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a
+{
+    margin-right: 10px;
+    color: white;
+}
+
+nav .nav-right-section .menu-icon
+{
+    background-image: url('http://3.bp.blogspot.com/-3NAqBu3H9G0/U49ykkWOULI/AAAAAAAACes/mgRUdEP9yws/s1600/Application+icon+android.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img
+{
+    border-radius: 50%;
+    margin-left: 10px;
 }
