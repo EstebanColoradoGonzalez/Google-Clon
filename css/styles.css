@@ -1,0 +1,24 @@
+:root
+{
+    --font: 1.6rem;
+    --dark-color: rgb(32, 33, 36);
+}
+
+*
+{
+    font-family: 'Roboto', sans-serif;;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: var(--font);
+    background-color: var(--dark-color);
+}
